@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tropical Glo Mobile Car Wash</title>
+<style>
+  body { margin: 0; font-family: Arial, sans-serif; background: #0b1424; color: #ffffff; }
+  header { text-align: center; padding: 24px 16px; }
+  h1 { margin: 0; color: #f5b800; }
+  .tagline { margin: 8px 0 0; font-size: 20px; font-weight: bold; }
+  h2 { text-align: center; color: #f5b800; }
+  .packages { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; padding: 0 16px; }
+  .card { background: #13213a; border: 2px solid #2f6fd6; border-radius: 10px; padding: 16px; width: 260px; }
+  .card h3 { margin-top: 0; color: #5aa0ff; }
+  .popular { border-color: #f5b800; }
+  .badge { background: #f5b800; color: #0b1424; font-weight: bold; padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+  .prices { display: flex; justify-content: space-between; font-weight: bold; font-size: 18px; margin-top: 12px; }
+  .box { max-width: 560px; margin: 24px auto; background: #13213a; border-radius: 10px; padding: 16px; }
+  .box li { margin-bottom: 6px; }
+  .contact { text-align: center; padding: 24px 16px 40px; }
+  .btn { display: inline-block; background: #f5b800; color: #0b1424; font-weight: bold; text-decoration: none; padding: 12px 24px; border-radius: 8px; margin: 6px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Tropical Glo Mobile Car Wash LLC</h1>
+  <p class="tagline">We Come To You! Home · Work · Anywhere</p>
+</header>
+
+<h2>Services &amp; Prices</h2>
+<div class="packages">
+
+  <div class="card">
+    <h3>Basic Detail</h3>
+    <ul>
+      <li>Exterior Hand Wash</li>
+      <li>Wheel &amp; Tire Cleaning</li>
+      <li>Interior Vacuum</li>
+      <li>Wipe Down (Dash, Doors, Console)</li>
+      <li>Windows Cleaned</li>
+    </ul>
+    <div class="prices"><span>Sedan $80</span><span>SUV/Truck $100</span></div>
+  </div>
+
+  <div class="card">
+    <h3>Interior Detail</h3>
+    <ul>
+      <li>Deep Vacuum</li>
+      <li>Carpet &amp; Seat Shampoo</li>
+      <li>Stain Removal</li>
+      <li>Full Wipe Down &amp; Disinfect</li>
+      <li>Interior Windows</li>
+    </ul>
+    <div class="prices"><span>Sedan $130</span><span>SUV/Truck $160</span></div>
+  </div>
+
+  <div class="card popular">
+    <span class="badge">MOST POPULAR</span>
+    <h3>Full Detail</h3>
+    <ul>
+      <li>Everything in Interior &amp; Exterior Detail</li>
+      <li>Deep Cleaning Inside &amp; Out</li>
+      <li>Restores &amp; Protects Your Vehicle</li>
+    </ul>
+    <div class="prices"><span>Sedan $180</span><span>SUV/Truck $220</span></div>
+  </div>
+
+  <div class="card">
+    <h3>Exterior Detail</h3>
+    <ul>
+      <li>Hand Wash &amp; Dry</li>
+      <li>Clay Bar Treatment</li>
+      <li>Spray Wax Protection</li>
+      <li>Tire Shine</li>
+      <li>Exterior Windows</li>
+    </ul>
+    <div class="prices"><span>Sedan $120</span><span>SUV/Truck $150</span></div>
+  </div>
+
+  <div class="card">
+    <h3>Premium Detail</h3>
+    <p><strong>Full Detail Plus:</strong></p>
+    <ul>
+      <li>Full Extraction Shampoo</li>
+      <li>High-Gloss Wax</li>
+      <li>Trim Restoration</li>
+      <li>Odor Removal Treatment</li>
+      <li>Showroom Finish</li>
+    </ul>
+    <div class="prices"><span>Sedan $250</span><span>SUV/Truck $300</span></div>
+  </div>
+
+</div>
+
+<div class="box">
+  <h2>Add-Ons</h2>
+  <ul>
+    <li>Engine Bay Cleaning — $40</li>
+    <li>Pet Hair Removal — $25 – $75</li>
+    <li>Heavy Stain Removal — $25+</li>
+    <li>Headlight Restoration — $60</li>
+    <li>Spray Wax Upgrade — $25</li>
+    <li>Seat Shampoo Only — $50</li>
+    <li>Premium Scent Upgrade — $10</li>
+  </ul>
+  <p><strong>Mobile Service Travel Fee:</strong> $0 – $50 (based on distance)</p>
+</div>
+
+<div class="contact">
+  <h2>Book Now</h2>
+  <a class="btn" href="tel:+15136173335">Call 513-617-3335</a>
+  <a class="btn" href="sms:+15136173335">Text Us</a>
+</div>
+
+</body>
+</html>
