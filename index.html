@@ -117,6 +117,32 @@
        <a class="btn" href="tel:+15136468735">Call 513-646-8735</a>
      <a class="btn" href="sms:+15136468735">Text Us</a>
 </div>
+  
+   <script>
+     var prices = {
+       basic: { sedan: 120, suv: 150 },
+       full: { sedan: 200, suv: 250 },
+       premium: { sedan: 325, suv: 350 }
+     };
+     function updateTotal() {
+       var pkg = document.getElementById("pkg").value;
+       var vehicle = document.getElementById("vehicle").value;
+       var total = prices[pkg][vehicle];
+       var extras = document.querySelectorAll(".extra");
+       for (var i = 0; i < extras.length; i++) {
+         if (extras[i].checked) {
+           total = total + Number(extras[i].value);
+         }
+       }
+       document.getElementById("total").textContent = "Total: $" + total;
+     }
+     document.getElementById("pkg").addEventListener("change", updateTotal);
+     document.getElementById("vehicle").addEventListener("change", updateTotal);
+     var boxes = document.querySelectorAll(".extra");
+     for (var j = 0; j < boxes.length; j++) {
+       boxes[j].addEventListener("change", updateTotal);
+     }
+   </script>
 
 </body>
 </html>
